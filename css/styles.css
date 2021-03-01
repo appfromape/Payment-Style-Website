@@ -1,0 +1,164 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    color: white;
+    background-color: black;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.nav-item {
+    padding-right: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+h1 {  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;  
+    line-height: 1.5;  
+    font-weight: bold;
+    }
+
+.fa-html5 {
+    font-size: 100px;
+    /* text-align: center; */
+    padding-bottom: 15px;
+    color: pink;
+}
+
+.fa-css3-alt {
+    font-size: 100px;
+    /* text-align: center; */
+    padding-bottom: 15px;
+    color: violet;
+}
+
+.fa-bootstrap {
+    font-size: 100px;
+    /* text-align: center; */
+    padding-bottom: 15px;
+    color: teal;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.download-bt {
+    margin: 5% 3% 5%;
+    margin-left: 0px;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(35deg);
+    position: absolute;
+    margin-left: 100px;
+}
+
+#features {
+    padding: 7% 10%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.col-md-4 {
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.fas:hover {
+    color: gold;
+}
+
+.fab:hover {
+    color: gold;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    color: gray;
+}
+
+#testimonials {
+    background-color:mediumslateblue;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+em {
+    color: black;
+}
+
+.tes-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}   
+
+#press {
+    background-color: mediumslateblue;
+    text-align: center;
+    padding: 0 10px 50px 10px;
+}
+
+.p-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+    .title-img {
+        width: 70%;
+        position: static;
+        transform: rotate(0);
+        margin-left: 0px;
+    }
+
+    .col-md-6 {
+        text-align: center;
+    }
+}
+
+
+#cta {
+    color: white;
+    font-size: 2rem;
+    background-color: #e27802;
+    padding: 7% 10% 7% 10%;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 10%;
+}
